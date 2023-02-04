@@ -3,6 +3,7 @@ class Demo2{
 
     public static void main(String args[])
     {
+        //using methods and if clause
         String stat;
 
         stat = club("Pasan", 27);
