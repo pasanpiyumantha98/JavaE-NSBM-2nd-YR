@@ -1,5 +1,6 @@
 interface computer{
 
+//implementing interfaces with java
 void comp();
 
     
