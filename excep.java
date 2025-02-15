@@ -7,6 +7,7 @@ int a=3;
 int b=0;
 int result=0;
 
+//errors handling 
 try{
 result = a/b;
 }
