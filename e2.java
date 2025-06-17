@@ -16,8 +16,7 @@ class Demo2{
     {
         boolean stat = false;
 
-        if(age>21)
-          stat =true;
+        stat = age>21 ? true : false ;
 
         if(stat==true)
         {
