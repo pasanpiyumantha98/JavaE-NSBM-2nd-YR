@@ -13,8 +13,8 @@ class train{
 class intercitytrain extends train{
 
 double speed = 120.50;
-    public void speedk {
-        System.out.println("This train is intercity and speed is " + speed)
+    public void speedk () {
+        System.out.println("This train is intercity and speed is " + speed);
     }
 
 }
