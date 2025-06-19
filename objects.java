@@ -1,7 +1,18 @@
 class train{
 
-    int capacity;
+    private int capacity;
     String name;
+
+    public void settercap(int cap)
+    {
+        capacity= cap;
+    }
+
+    public int getcap()
+    {
+        return capacity;
+    }
+
 
     public void trainname()
     {
@@ -29,11 +40,11 @@ public static void main(String args[]){
 
 intercitytrain t1 = new intercitytrain();
 
-t1.name="Sagarika";
+t1.settercap(120);
 
-t1.trainname();
+int realcap = t1.getcap();
 
-t1.speedk();
+System.out.println(realcap);
 
 
 }
